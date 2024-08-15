@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Rule Engine</title>
+</head>
+<body>
+    <h1>Rule Engine</h1>
+    <form id="rule-form">
+        <label for="rule">Enter Rule:</label>
+        <input type="text" id="rule" name="rule" size="50" required>
+        <button type="button" id="submit-rule">Submit Rule</button>
+    </form>
+    <form id="evaluation-form">
+        <label for="data">Enter Data (JSON format):</label>
+        <textarea id="data" name="data" rows="10" cols="50" required></textarea>
+        <button type="button" id="submit-evaluation">Evaluate Rule</button>
+    </form>
+    <h2 id="result">Result:</h2>
+    <script src="app.js"></script>
+</body>
+</html>
