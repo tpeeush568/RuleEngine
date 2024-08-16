@@ -27,33 +27,13 @@ The Rule Engine with Abstract Syntax Tree (AST) is a simple 3-tier application d
    cd RuleEngine
    ```
 
-2. **Create a Virtual Environment**
-
-   ```bash
-   python -m venv .venv
-   ```
-
-3. **Activate the Virtual Environment**
-
-   - **Windows:**
-
-     ```bash
-     .venv\Scripts\activate
-     ```
-
-   - **macOS/Linux:**
-
-     ```bash
-     source .venv/bin/activate
-     ```
-
-4. **Install Dependencies**
+2.**Install Dependencies**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-5. **Configure the Database**
+3.**Configure the Database**
 
    Create and Update the `.env` file with your database credentials:
 
@@ -73,13 +53,13 @@ The Rule Engine with Abstract Syntax Tree (AST) is a simple 3-tier application d
    );
    ```
 
-6. **Run the Application**
+4.**Run the Application**
 
    ```bash
    python api.py
    ```
 
-   The application will be available at `http://127.0.0.1:5000`.
+
 
 ## API Endpoints
 
